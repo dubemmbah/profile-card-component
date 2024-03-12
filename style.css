@@ -90,7 +90,7 @@ body {
   transition: 1s ease;
 }
 
-.img-container img:hover {
+.card:hover .img-container img {
   transform: rotateY(0.5turn);
 }
 
