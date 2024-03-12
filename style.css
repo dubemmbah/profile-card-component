@@ -71,16 +71,10 @@ body {
   height: 100%;
 }
 
-.bottom {
-  /* padding: 0 4rem 2rem; */
-}
-
 .img-container {
   max-width: 10.75rem;
   width: 100%;
-  margin: 0 auto;
-  margin-top: -6rem;
-  margin-bottom: 2.25rem;
+  margin: -6rem auto 2.25rem;
   background-color: var(--white);
   padding: 0.5rem;
   border-radius: 50%;
@@ -104,12 +98,16 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   color: var(--very-dark-saturated-blue);
-  margin-bottom: 0.75rem;
+  margin: 0 auto 0.75rem;
+  width: max-content;
 }
 
-.user-name:hover {
+.user-name {
   cursor: pointer;
 }
+
+.user-age {
+  cursor: auto;
 
 .user-name .user-age {
   font-weight: normal;
